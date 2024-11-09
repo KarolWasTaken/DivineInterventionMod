@@ -3,7 +3,7 @@
 	"package": "net.karoll.jesusmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
+		"ExampleMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -6,27 +6,21 @@ import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.karoll.jesusmod.JesusMod;
 import net.karoll.jesusmod.SoundRegistry;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawContext;
-import net.minecraft.client.render.GameRenderer;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.RenderTickCounter;
-import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.sound.PositionedSoundInstance;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 
 public class JesusHudOverlay implements HudRenderCallback {
     // Textures loaded here
     // if you wanna add textures, it's here
-    public static final List<Identifier> JESUS_IMAGES = new ArrayList<Identifier>() {{
+    public static final List<Identifier> JESUS_IMAGES = new ArrayList<>() {{
         add(Identifier.of(JesusMod.MOD_ID, "textures/jesusimages/jesus1.png"));
         add(Identifier.of(JesusMod.MOD_ID, "textures/jesusimages/jesus2.png"));
         add(Identifier.of(JesusMod.MOD_ID, "textures/jesusimages/jesus3.png"));

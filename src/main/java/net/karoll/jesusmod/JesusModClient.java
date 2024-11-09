@@ -3,7 +3,6 @@ package net.karoll.jesusmod;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.karoll.jesusmod.client.JesusHudOverlay;
-import net.minecraft.client.sound.Sound;
 
 public class JesusModClient implements ClientModInitializer {
 
