@@ -9,10 +9,9 @@ public class JesusModClient implements ClientModInitializer {
     // runs on startup
     @Override
     public void onInitializeClient() {
-
         // registers hud
         HudRenderCallback.EVENT.register(new JesusHudOverlay());
         // registers sound
-        SoundRegistry.CHURCHBELLS =  SoundRegistry.registerSoundEvent("churchbells");
+        SoundRegistry.CHURCHBELLS = SoundRegistry.registerSoundEvent("churchbells");
     }
 }

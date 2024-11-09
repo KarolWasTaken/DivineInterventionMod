@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.karoll.jesusmod.JesusMod"
+          "net.karoll.jesusmod.JesusMod"
 		],
 		"client": [
 			"net.karoll.jesusmod.JesusModClient"
@@ -30,8 +30,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": ">=1.20.6",
-		"java": ">=21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
