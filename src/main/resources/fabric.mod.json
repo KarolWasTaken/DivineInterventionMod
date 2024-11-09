@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "jesusmod",
+	"version": "${version}",
+	"name": "Divine Intervention",
+	"description": "May the lord be with you",
+	"authors": [
+		"God"
+	],
+	"contact": {
+		"homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+		"sources": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jesusmod/image.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.karoll.jesusmod.JesusMod"
+		],
+		"client": [
+			"net.karoll.jesusmod.JesusModClient"
+		],
+		"fabric-datagen": [
+			"net.karoll.jesusmod.JesusModDataGenerator"
+		]
+	},
+	"mixins": [
+		"jesusmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
